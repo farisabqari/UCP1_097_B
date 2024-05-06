@@ -1,0 +1,291 @@
+	body {
+		font-family: Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+	}
+
+	.header {
+		background-color: #333;
+		color: white;
+		padding: 10px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.navbar {
+		background-color: #f2f2f2;
+		padding: 15px;
+	}
+
+	.navbar ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.navbar li {
+		display: inline;
+		margin-right: 15px;
+	}
+
+	.content {
+		padding: 20px;
+	}
+
+	.card {
+		border: 1px solid #ddd;
+		border-radius: 5px;
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+
+	.card img {
+		width: 100%;
+		border-radius: 5px;
+		margin-bottom: 10px;
+	}
+
+	.description {
+		text-align: justify;
+	}
+
+	.design {
+		margin-bottom: 20px;
+	}
+
+	.design img {
+		width: 100%;
+		border-radius: 5px;
+		margin-bottom: 10px;
+	}
+
+	.hobby audio, .hobby video {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.footer {
+		background-color: #333;
+		color: white;
+		text-align: center;
+		padding: 40px 0;
+	}	
+
+	body {
+		font-family: Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+	}
+
+	.header {
+		background-color: #333;
+		color: white;
+		padding: 20px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.navbar {
+		background-color: #f2f2f2;
+		padding: 15px;
+	}
+
+	.navbar ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.navbar li {
+		display: inline;
+		margin-right: 15px;
+	}
+
+	.content {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		padding: 20px;
+	}
+
+	.card {
+		display: flex;
+		align-items: center;
+		border: 1px solid #ddd;
+		border-radius: 5px;
+		margin-bottom: 20px;
+		padding: 20px;
+		max-width: 800px; /* Adjust as needed */
+	}
+
+	.card img {
+		max-width: 200px; /* Adjust size of the image */
+		height: auto;
+		margin-right: 20px;
+	}
+
+	.card p {
+		flex: 1;
+	} 
+
+
+	.design-item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 20px;
+		border-radius: 10px;
+		margin-bottom: 20px;
+		width: calc(33.33% - 40px); /* Adjust width based on the number of items per row */
+		box-sizing: border-box;
+		box-shadow: 0 2px 4px rgba(201, 32, 32, 0.1); /* Menambahkan efek shadow */
+	}
+
+	.design-item img {
+		width: 50%;
+		border-radius: 10px;
+		margin-bottom: 10px;
+	}
+
+	.design-item p {
+		text-align: justify;
+	}
+
+	.footer {
+		background-color: #333;
+		color: white;
+		text-align: center;
+		padding: 10px 0;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+	}
+	.hero-image {
+		background-image: url('5.png');
+		height: 400px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: flex;
+		justify-content: center;
+		align-items: center; /* Mengatur posisi vertikal */
+		text-align: center; /* Mengatur posisi horizontal */
+		color: rgb(33, 134, 24);
+	}
+
+	.hero-text {
+		padding: 20px;
+	}
+
+	.hero-text h1 {
+		font-size: 36px;
+		margin-bottom: 20px;
+	}
+
+	.hero-text button {
+		padding: 12px 24px;
+		font-size: 18px;
+		background-color: #4CAF50;
+		color: white;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: background-color 0.3s ease; /* Efek transisi saat hover */
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+	}
+
+	/* Hover effect for the button */
+	.hero-text button:hover {
+		background-color: #45a049;
+	}
+
+
+	.hero-text button:focus {
+		outline: none;
+		box-shadow: 0 0 0 3px rgba(0, 128, 0, 0.5); 
+	}
+	.row {
+		display: flex;
+		justify-content: center;
+	}
+	@media screen and (max-width: 768px) {
+		.text-vidio {
+			padding-top: 100px; /* Mengurangi jarak dari atas untuk layar yang lebih kecil */
+		}
+	
+		.text-vidio h2 {
+			font-size: 24px; /* Mengurangi ukuran teks untuk layar yang lebih kecil */
+		}
+	}
+	
+
+	.video {
+		padding-top: 330px;
+	}
+
+	.Link-audio {
+		border-radius: 12px;
+		overflow: hidden;
+		background-color: #f5f5f5;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+
+	.link1-audio,
+	.link2-audio,
+	.link3-audio,
+	.link4-audio {
+		padding: 20px;
+		flex: 1;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	
+	h2 {
+		font-size: 50px;
+		color: #b9928b;
+		text-shadow: 2px 2px 4px #7b5c56;
+	}
+	
+	h3 {
+		font-size: 40px;
+	}
+	
+	h4 {
+		font-size: 40px;
+	}
+	
+	h5 {
+		font-size: 40px;
+	}
+	
+	h6 {
+		font-size: 20px;
+		font-weight: bold;
+		color: #7a8b94;
+	}
+	p {
+		font-size: 20px;
+	}	
+	/* Penyesuaian pada layar yang lebih kecil (max-width: 768px) */
+	@media screen and (max-width: 768px) {
+		.video {
+			padding-top: 150px; /* Mengurangi padding atas untuk bagian video */
+		}
+
+		.row-video {
+			padding-top: 150px; /* Mengurangi padding atas untuk baris video */
+		}
+
+		.Link-audio {
+			margin-bottom: 10px; /* Mengurangi margin bawah untuk item audio */
+		}
+
+		.row {
+			flex-wrap: wrap; /* Mengizinkan baris untuk melingkar saat ruang terbatas */
+		}
+		
+	}
